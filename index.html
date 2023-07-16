@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="myPortfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.jpg">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
@@ -11,23 +12,64 @@
 <body>
     <header>
         <div>
-            <a href=""></a>
+            <a href="">ロゴ</a>
             <nav>
-                <a class="top" href="">はじめに</a>
-                <a class="skill" href="">スキル</a>
-                <a class="portfolio" href="">制作例</a>
-                <a class="profile" href="">自己紹介</a>
-                <a class="contact" href="">お問い合わせ</a>
+                <a href="index.html#top">はじめに</a>
+                <a href="index.html#skill">スキル</a>
+                <a href="index.html#portfolip">制作例</a>
+                <a href="index.html#profile">自己紹介</a>
+                <a href="index.html#contact">お問い合わせ</a>
             </nav>
         </div>
         <!--sp用ハンバーガーメニュー挿入予定-->
     </header>
     <main>
-        <section class="top"></section>
-        <section class="skill"></section>
-        <section class="portfolio"></section>
-        <section class="profile"></section>
-        <section class="contact"></section>
+        <section id="top"></section>
+        <section id="skill"></section>
+            <h1>できる仕事</h1>
+            <ul>
+                <li>ホームページ制作</li>
+                <li>LP制作</li>
+                <li>コーディング</li>
+                <li>機能の実装、追加</li>
+                <li>バナー作成</li>
+            </ul>
+            <p>小説執筆及びライティング、柔道整復師資格所持、介護経験５年以上など<br>
+            他にも様々なスキルを持ちますので、詳細が気になる方は<a href="">こちら</a></p>
+        <section id="portfolio">
+            <h1>ポートフォリオ</h1>
+            <!--介護施設防災ガイド制作予定-->
+            <!--WordPressなどできれば計３つ程度-->
+            <!--slickを使い見やすさ重視-->
+        </section>
+        <section id="profile"></section>
+        <section id="contact">
+            <form>
+                <p>お問い合わせ内容</p>
+                <div class="main-text">
+                    <label>お名前</label>
+                    <br>
+                    <input type="text">
+                </div>
+                <div class="main-text">
+                    <label>メールアドレス</label>
+                    <br>
+                    <input type="text">
+                </div>
+                <div class="main-text">
+                    <label>ご相談内容</label>
+                    <br>
+                    <textarea id="message"></textarea>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+            <p>お仕事の依頼はもちろん、ご見積もり、相談など気になる方はご連絡ください。<br>
+            翌日返事をしますが、多忙の際など少し時間をいただく場合があります<br>
+            （連絡が遅れる場合も一言連絡をいれさせていただきますので、<br>
+            ３日以上返事がない場合は申し訳ありませんがもう一度再送をお願い致します）</p>
+        </section>
     </main>
     <footer></footer>
 </body>
