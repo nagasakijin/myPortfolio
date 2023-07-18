@@ -7,21 +7,33 @@
     <link rel="icon" href="img/icon.jpg">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"/>
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>長崎仁のサイトにようこそ</title>
 </head>
 <body>
     <header>
         <div>
-            <a href="">ロゴ</a>
-            <nav>
+            <img src="img/logo.jpg" alt="全ての品質にこだわります">
+            <nav id="nav_pc">
                 <a href="index.html#top">はじめに</a>
                 <a href="index.html#skill">スキル</a>
                 <a href="index.html#portfolip">制作例</a>
                 <a href="index.html#profile">自己紹介</a>
                 <a href="index.html#contact">お問い合わせ</a>
             </nav>
+            <!--スマホ用ハンバーガーメニュー-->
+        <nav id="nav_sp">
+            <div class="open_btn"><span></span><span></span><span></span></div>
+            <nav id="g-nav">
+                <ul>
+                    <li><a href="index.html#top">はじめに</a></li>  
+                    <li><a href="index.html#skill">スキル</a></li>
+                    <li><a href="index.html#portfolip">制作例</a></li>
+                    <li><a href="index.html#profile">自己紹介</a></li>
+                    <li><a href="index.html#contact">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </nav>
         </div>
-        <!--sp用ハンバーガーメニュー挿入予定-->
     </header>
     <main>
         <section id="top">
@@ -90,7 +102,7 @@
                     <textarea id="message"></textarea>
                 </div>
                 <div id="submit">
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="送信する">
                 </div>
             </form>
             <p>お仕事の依頼はもちろん、ご見積もり、相談など気になる方はご連絡ください。<br>

@@ -1,0 +1,79 @@
+body {
+  background-color: #90ee90;
+  text-align: center;
+}
+
+header {
+  padding: 20px 150px 15px 200px;
+  background-color: #ffffff;
+}
+
+header div {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header div #nav_pc > a {
+  color: #000000;
+  text-decoration-line: none;
+  margin-right: 30px;
+}
+
+header div #nav_sp {
+  display: none;
+}
+
+#skill {
+  background-color: #ffffff;
+}
+
+#profile {
+  background-color: #ffffff;
+}
+
+#contact {
+  background-color: #008000;
+  font-weight: bold;
+}
+
+#contact form {
+  margin: 90px 320px 0;
+}
+
+#contact form h1 {
+  font-size: 50px;
+}
+
+#contact form .main-text {
+  margin-top: 23px;
+  font-size: 30px;
+}
+
+#contact form .main-text input {
+  background-color: #ffffff;
+  height: 40px;
+  width: 100%;
+}
+
+#contact form #message {
+  background-color: #ffffff;
+  height: 190px;
+  width: 100%;
+}
+
+#contact form #submit {
+  margin: 70px 0 100px;
+}
+
+#contact form #submit input {
+  background-color: #F7D43F;
+  width: 238px;
+  padding: 24px 50px 18px;
+  color: #333;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-radius: 60px;
+}
