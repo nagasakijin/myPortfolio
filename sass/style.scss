@@ -1,27 +1,35 @@
 body{
-    background-color: #90ee90;
+    background-color: #87ceeb;
     text-align: center;
 }
 
 header{
-    padding: 20px 150px 15px 200px;
-    background-color: #ffffff;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
     div{
-        font-size: 25px;
+        font-size: 20px;
         display: flex;
         justify-content: space-between;
-        #nav_pc > a{
-                color: #000000;
-                text-decoration-line: none;
-                margin-right: 30px;
+        img{
+            margin-left: 150px;
+        }
+        #nav_pc{
+            margin: 35px 40px 0  0;
+            background-color: #008b8b;
+            border-radius: 10px 10px 0 0;
+            ul > li{
+                display: inline;
+                padding-right: 30px;
+                a{
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+            }
         }
         #nav_sp{
             display: none;
         }
     }
-}
-#skill{
-    background-color: #ffffff;
 }
 
 #profile{
@@ -29,10 +37,12 @@ header{
 }
 
 #contact{
-    background-color: #008000;
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color: #0000ff;
     font-weight: bold;
     form{
-        margin: 90px 320px 0;
+        margin: 15px 320px 0;
         h1{
             font-size: 50px;
         }
