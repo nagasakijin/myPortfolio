@@ -1,10 +1,11 @@
 body {
-  background-color: #87ceeb;
+  background-color: #fff450;
   text-align: center;
 }
 
 header {
   background-image: url(../img/header.jpg);
+  height: 380px;
   background-size: cover;
 }
 
@@ -15,12 +16,13 @@ header div {
 }
 
 header div img {
-  margin-left: 150px;
+  margin-left: 50px;
+  height: 40px;
 }
 
 header div #nav_pc {
-  margin: 35px 40px 0  0;
-  background-color: #008b8b;
+  margin: 350px 40px 0  0;
+  background-color: #ffff00;
   border-radius: 10px 10px 0 0;
 }
 
@@ -30,7 +32,7 @@ header div #nav_pc ul > li {
 }
 
 header div #nav_pc ul > li a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -42,10 +44,22 @@ header div #nav_sp {
   background-color: #ffffff;
 }
 
+#profile table {
+  display: flex;
+  justify-content: center;
+}
+
+#profile table tr td {
+  border: solid 1px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+}
+
 #contact {
   margin-top: 50px;
   padding-top: 30px;
-  background-color: #0000ff;
+  background-color: #ffff00;
   font-weight: bold;
 }
 

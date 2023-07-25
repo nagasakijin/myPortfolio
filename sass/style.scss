@@ -1,27 +1,29 @@
 body{
-    background-color: #87ceeb;
+    background-color: #fff450;
     text-align: center;
 }
 
 header{
     background-image: url(../img/header.jpg);
+    height: 380px;
     background-size: cover;
     div{
         font-size: 20px;
         display: flex;
         justify-content: space-between;
         img{
-            margin-left: 150px;
+            margin-left: 50px;
+            height: 40px;
         }
         #nav_pc{
-            margin: 35px 40px 0  0;
-            background-color: #008b8b;
+            margin: 350px 40px 0  0;
+            background-color: #ffff00;
             border-radius: 10px 10px 0 0;
             ul > li{
                 display: inline;
                 padding-right: 30px;
                 a{
-                    color: #ffffff;
+                    color: #000000;
                     text-decoration: none;
                 }
             }
@@ -34,12 +36,24 @@ header{
 
 #profile{
     background-color: #ffffff;
+    table{
+        display: flex;
+        justify-content: center;
+        tr{
+            td{
+                border: solid 1px;
+                font-size: 18px;
+                font-weight: bold;
+                padding: 15px;
+            }
+        }
+    }
 }
 
 #contact{
     margin-top: 50px;
     padding-top: 30px;
-    background-color: #0000ff;
+    background-color: #ffff00;
     font-weight: bold;
     form{
         margin: 15px 320px 0;
