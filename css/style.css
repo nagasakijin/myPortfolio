@@ -5,7 +5,7 @@ body {
 
 header {
   background-image: url(../img/header.jpg);
-  height: 380px;
+  height: 400px;
   background-size: cover;
 }
 
@@ -21,8 +21,9 @@ header div img {
 }
 
 header div #nav_pc {
-  margin: 350px 40px 0  0;
-  background-color: #ffff00;
+  margin: 370px 20px 0  0;
+  padding-left: 10px;
+  background-color: #ffcc00;
   border-radius: 10px 10px 0 0;
 }
 
