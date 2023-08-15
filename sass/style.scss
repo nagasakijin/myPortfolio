@@ -79,16 +79,20 @@ header{
 
 #profile{
     background-color: #ffffff;
-    table{
+    p{
+        margin: 15px 0 40px;
+    }
+    div{
         display: flex;
         justify-content: center;
-        tr{
-            td{
-                border: solid 1px;
-                font-size: 18px;
-                font-weight: bold;
-                padding: 15px;
-            }
+        img{
+            width: 400px;
+            height: 300px;
+        }
+        p{
+            font-size: 20px;
+            margin-top: 40px;
+            width: 500px;
         }
     }
 }

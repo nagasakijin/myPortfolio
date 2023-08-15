@@ -92,16 +92,24 @@ header div #nav_sp {
   background-color: #ffffff;
 }
 
-#profile table {
+#profile p {
+  margin: 15px 0 40px;
+}
+
+#profile div {
   display: flex;
   justify-content: center;
 }
 
-#profile table tr td {
-  border: solid 1px;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 15px;
+#profile div img {
+  width: 400px;
+  height: 300px;
+}
+
+#profile div p {
+  font-size: 20px;
+  margin-top: 40px;
+  width: 500px;
 }
 
 #contact {
