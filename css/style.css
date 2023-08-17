@@ -41,20 +41,75 @@ header div #nav_sp {
   display: none;
 }
 
+#top {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0 100px;
+}
+
+#top img {
+  width: 180px;
+  margin: 0 50px;
+}
+
+#job {
+  margin: 0 0 80px;
+}
+
+#job p {
+  font-size: 20px;
+  margin: 20px 0 40px;
+}
+
+#job div {
+  margin: 20px 0;
+}
+
+#job #blue {
+  color: #0000aa;
+}
+
+#skill #can {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
+#skill #can div {
+  width: 25%;
+  margin: 50px 0;
+}
+
+#skill #can div span {
+  font-size: 100px;
+}
+
+#skill #can div p {
+  margin: 20px 0 0;
+}
+
 #profile {
   background-color: #ffffff;
 }
 
-#profile table {
+#profile p {
+  margin: 15px 0 40px;
+}
+
+#profile div {
   display: flex;
   justify-content: center;
 }
 
-#profile table tr td {
-  border: solid 1px;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 15px;
+#profile div img {
+  width: 400px;
+  height: 300px;
+}
+
+#profile div p {
+  font-size: 20px;
+  margin-top: 40px;
+  width: 500px;
 }
 
 #contact {
@@ -65,42 +120,67 @@ header div #nav_sp {
 }
 
 #contact form {
-  margin: 15px 320px 0;
+  max-width: 500px;
+  margin: 15px auto 0;
 }
 
 #contact form h1 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
 #contact form .main-text {
   margin-top: 23px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #contact form .main-text input {
   background-color: #ffffff;
-  height: 40px;
-  width: 100%;
+  height: 30px;
+  width: 80%;
+}
+
+#contact form .checkbox {
+  text-align: left;
+  margin: 20px 50px;
 }
 
 #contact form #message {
   background-color: #ffffff;
-  height: 190px;
+  height: 250px;
   width: 100%;
 }
 
 #contact form #submit {
-  margin: 70px 0 100px;
+  margin: 25px 0 70px;
 }
 
 #contact form #submit input {
   background-color: #F7D43F;
-  width: 238px;
+  width: 150px;
   padding: 24px 50px 18px;
   color: #333;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 1px;
   border-radius: 60px;
+}
+
+#page_top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#page_top a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+#page_top :hover {
+  background-color: #666;
+  text-decoration: none;
 }
