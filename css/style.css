@@ -92,16 +92,24 @@ header div #nav_sp {
   background-color: #ffffff;
 }
 
-#profile table {
+#profile p {
+  margin: 15px 0 40px;
+}
+
+#profile div {
   display: flex;
   justify-content: center;
 }
 
-#profile table tr td {
-  border: solid 1px;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 15px;
+#profile div img {
+  width: 400px;
+  height: 300px;
+}
+
+#profile div p {
+  font-size: 20px;
+  margin-top: 40px;
+  width: 500px;
 }
 
 #contact {
@@ -112,7 +120,8 @@ header div #nav_sp {
 }
 
 #contact form {
-  margin: 15px 320px 0;
+  max-width: 500px;
+  margin: 15px auto 0;
 }
 
 #contact form h1 {
@@ -127,13 +136,18 @@ header div #nav_sp {
 #contact form .main-text input {
   background-color: #ffffff;
   height: 30px;
-  width: 50%;
+  width: 80%;
+}
+
+#contact form .checkbox {
+  text-align: left;
+  margin: 20px 50px;
 }
 
 #contact form #message {
   background-color: #ffffff;
   height: 250px;
-  width: 50%;
+  width: 100%;
 }
 
 #contact form #submit {
@@ -150,4 +164,23 @@ header div #nav_sp {
   text-decoration: none;
   letter-spacing: 1px;
   border-radius: 60px;
+}
+
+#page_top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#page_top a {
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+#page_top :hover {
+  background-color: #666;
+  text-decoration: none;
 }
