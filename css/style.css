@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #fff450;
   text-align: center;
@@ -213,6 +214,82 @@ header div #nav_sp {
     display: block;
     margin-top: 10px;
     padding: 5px 0;
+    /*========= ボタンのためのCSS ===============*/
+    /*×に変化*/
+  }
+  header div #nav_sp #g_nav {
+    position: fixed;
+    top: -120%;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #242424;
+  }
+  header div #nav_sp #g_nav ul {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+  header div #nav_sp #g_nav ul li {
+    list-style: none;
+  }
+  header div #nav_sp #g_nav ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 10px 22px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+  }
+  header div #nav_sp #g_nav.panelactive {
+    top: 0;
+  }
+  header div #nav_sp .open_btn {
+    position: fixed;
+    z-index: 9999;
+    /*ボタンを最前面に*/
+    top: 20px;
+    right: 0;
+    cursor: pointer;
+    width: 57px;
+    height: 50px;
+  }
+  header div #nav_sp .open_btn span {
+    display: inline-block;
+    transition: all .4s;
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    width: 45%;
+  }
+  header div #nav_sp .open_btn span:nth-of-type(1) {
+    top: 15px;
+  }
+  header div #nav_sp .open_btn span:nth-of-type(2) {
+    top: 25px;
+  }
+  header div #nav_sp .open_btn span:nth-of-type(3) {
+    top: 35px;
+  }
+  header div #nav_sp .open_btn.active span:nth-of-type(1) {
+    top: 12px;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 55%;
+  }
+  header div #nav_sp .open_btn.active span:nth-of-type(2) {
+    opacity: 0;
+  }
+  header div #nav_sp .open_btn.active span:nth-of-type(3) {
+    top: 24px;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 55%;
   }
   #top {
     flex-direction: column;
