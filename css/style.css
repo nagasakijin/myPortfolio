@@ -214,8 +214,6 @@ header div #nav_sp {
     display: block;
     margin-top: 10px;
     padding: 5px 0;
-    /*========= ボタンのためのCSS ===============*/
-    /*×に変化*/
   }
   header div #nav_sp #g_nav {
     position: fixed;
@@ -255,7 +253,6 @@ header div #nav_sp {
     right: 0;
     cursor: pointer;
     width: 57px;
-    height: 50px;
   }
   header div #nav_sp .open_btn span {
     display: inline-block;

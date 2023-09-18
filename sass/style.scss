@@ -218,59 +218,54 @@ header{
                 #g_nav.panelactive{
                     top: 0;
                 }
+                .open_btn{
+	                position:fixed;
+                    z-index: 9999;/*ボタンを最前面に*/
+                	top:20px;
+                	right: 0;
+	                cursor: pointer;
+                    width: 57px;
+                    span{
+                        display: inline-block;
+                        transition: all .4s;
+                        position: absolute;
+                        left: 14px;
+                        height: 3px;
+                        border-radius: 2px;
+                        background-color: #ffffff;
+                          width: 45%;
+                    }
+                }
 
-/*========= ボタンのためのCSS ===============*/
-.open_btn{
-	position:fixed;
-    z-index: 9999;/*ボタンを最前面に*/
-	top:20px;
-	right: 0;
-	cursor: pointer;
-    width: 57px;
-    height:50px;
-}
-	
-/*×に変化*/	
-.open_btn span{
-    display: inline-block;
-    transition: all .4s;
-    position: absolute;
-    left: 14px;
-    height: 3px;
-    border-radius: 2px;
-	background-color: #ffffff;
-  	width: 45%;
-  }
+                .open_btn span:nth-of-type(1) {
+                	top:15px;	
+                }
 
-.open_btn span:nth-of-type(1) {
-	top:15px;	
-}
+                .open_btn span:nth-of-type(2) {
+                	top:25px;
+                }
 
-.open_btn span:nth-of-type(2) {
-	top:25px;
-}
+                .open_btn span:nth-of-type(3) {
+                	top:35px;
+                }
 
-.open_btn span:nth-of-type(3) {
-	top:35px;
-}
+                .open_btn.active span:nth-of-type(1) {
+                    top: 12px;
+                    left: 18px;
+                    transform: translateY(6px) rotate(-45deg);
+                    width: 55%;
+                }
 
-.open_btn.active span:nth-of-type(1) {
-    top: 12px;
-    left: 18px;
-    transform: translateY(6px) rotate(-45deg);
-    width: 55%;
-}
+                .open_btn.active span:nth-of-type(2) {
+            	opacity: 0;
+                }
 
-.open_btn.active span:nth-of-type(2) {
-	opacity: 0;
-}
-
-.open_btn.active span:nth-of-type(3){
-    top: 24px;
-    left: 18px;
-    transform: translateY(-6px) rotate(45deg);
-    width: 55%;
-}
+                .open_btn.active span:nth-of-type(3){
+                    top: 24px;
+                    left: 18px;
+                    transform: translateY(-6px) rotate(45deg);
+                    width: 55%;
+                }
             }    
         }
     }
