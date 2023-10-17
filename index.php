@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="myPortfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.jpg">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>長崎仁のサイトにようこそ</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo.jpg" alt="全ての品質にこだわります">
+            <nav id="nav_pc">
+                <ul>
+                    <li><a href="index.html#top">はじめに</a></li>
+                    <li><a href="index.html#job">仕事</a></li>
+                    <li><a href="index.html#skill">スキル</a></li>
+                    <!--<li><a href="index.html#portfolip">制作例</a></li>-->
+                    <li><a href="index.html#profile">自己紹介</a></li>
+                    <!--<li><a href="index.html#contact">お問い合わせ</a></li>-->
+                </ul>
+            </nav>
+            <!--スマホ用ハンバーガーメニュー-->
+            <nav id="nav_sp">
+                <div class="open_btn"><span></span><span></span><span></span></div>
+                <nav id="g_nav">
+                    <ul>
+                        <li><a href="index.html#top">はじめに</a></li>  
+                        <li><a href="index.html#job">仕事</a></li>
+                        <li><a href="index.html#skill">スキル</a></li>
+                        <!--<li><a href="index.html#portfolip">制作例</a></li>-->
+                        <li><a href="index.html#profile">自己紹介</a></li>
+                        <!--<li><a href="index.html#contact">お問い合わせ</a></li>-->
+                    </ul>
+                </nav>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="top">
+            <img src="img/icon.jpg">
+            <div>
+                <h2>当サイトについて</h2>    
+                <p>長崎仁のポートフォリオサイトにようこそ<br>
+                    ここでは私、長崎仁のスキルやお引き受けできる仕事内容、<br>
+                    今までの人生で獲得してきた能力や経歴についてまとめております。<br>
+                    少しでも興味を持っていただけると嬉しいです。<br>
+                    また、お仕事の依頼や簡単な相談にも対応できますので、<br>
+                    お気軽にご連絡ください。
+                </p>
+            </div>
+        </section>
+        <section id="job">
+            <h1>お受けする仕事について</h1>
+            <p>ここではお仕事を依頼される方への注意事項及びお受けできる依頼について説明します。<br>
+                私自身のスキルや経歴をみてから決めたい方は<a href="index.html#profile">こちらへ</a></p>  
+            <div>
+                <h3>注意事項について</h3>
+                <div>このサイトでは具体的な金額や納期については記載しておりません。<br>
+                    金額については基本的に依頼者様から提案いただくという形をとりますが、<br>
+                    報酬額が高すぎる場合は割引を、低すぎる場合はお断りする形で対応させていただきますので、<br>
+                    相場がわからない際には事前にその旨をお伝えいただけるとこちらから提案させていただきます。
+                </div>
+            </div>
+            <div>
+                <h3>お受けできる依頼について</h3>
+                <div>基本的には下記のご依頼を受け付けております。金額については目安です。</div>
+                    <table id="blue">
+                        <tr>
+                            <td>ホームページ制作<br>
+                                (WordPress対応,契約,ドメイン取得)</td>
+                            <td>￥80000～</td>
+                        </tr>
+                        <tr>
+                            <td>LP制作(複数ページもOK)</td>
+                            <td>1ページ￥50000～</td>
+                        </tr>
+                        <tr>
+                            <td>コーディング</td>
+                            <td>￥30000～</td>
+                        </tr>
+                        <tr>
+                            <td>バナー作成</td>
+                            <td>￥5000～</td>
+                        </tr>
+                    </table>
+            </div>
+        </section>
+        <section id="skill">
+            <h1>私の持つスキルについて紹介します。</h1>
+            <p>依頼の際には是非参考にしてみてください。</p>
+            <div id="can">
+                <div>
+                    <span class="material-symbols-outlined">code</span>
+                    <h3>言語</h3>
+                    <p>HTML<br>
+                        css(sass,Bootstrap対応可)<br>
+                        JavaScript(Jquery対応可)</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">settings</span>
+                    <h3>ツール</h3>
+                    <p>GitHub,Figma<br>
+                        WordPress</p>
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">face</span>
+                    <h3>その他の技能</h3>
+                    <p>小説執筆及びライティング<br>
+                        柔道整復師資格所持<br>
+                        介護経験５年以上など他にも様々なスキルを持ちます</p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <!--<h1>ポートフォリオ</h1>-->
+            <!--介護施設防災ガイド制作予定-->
+            <!--WordPressなどできれば計３つ程度-->
+            <!--slickを使い見やすさ重視-->
+        </section>
+        <section id="profile">
+            <h1>今までの人生</h1>
+            <p>ここでは私の経歴について簡単に紹介していきます。</p>
+            <div>
+                <img src="img/tiger.jpg" alt="大阪">
+                <p>1985年、大阪に生まれる。<br><br>
+                阪神タイガースが日本一になった事で父が大喜び<br>
+                キラキラネームという文化はまだなかったので<br>
+                名前がバースや道頓堀になることはなかった</p>   
+            </div>
+            <div class="reverse">
+                <p>昭和の終わりと平成の始まり（幼年期）<br><br>
+                物心がついた時から漫画、アニメ、ゲームが大好き<br>
+                特に仮面ライダーやゴジラ、戦隊ヒーローにハマり、<br>
+                4歳にして英語を使い先生を驚かせ天才と思わせるが<br>
+                アニメを覚えた少年たちにより、<br>
+                次々と英語を操る天才が生まれ凡人になる</p>
+                <img src="img/tokusatu.jpg" alt="特撮ヒーロー">
+            </div>
+            <div>
+                <img src="img/bonjin.png" alt="気がつけば・・・">
+                <p>2000年突入。青春時代<br><br>
+                クラスの3分の2が女子という環境の中、<br>
+                計7回に渡り同じ女子に告白するも玉砕<br>
+                一度も彼女が出来ずに卒業。<br>
+                パワプロと柔道、筋トレだけの生活だった気がする。<br>
+                高卒後、工場で働くも夜勤に耐えられずギブアップ。<br>
+                小説家を目指して専門学校の門戸を叩く</p>    
+            </div>
+            <div class="reverse">
+                <p>成人、そして小説家目指して<br><br>
+                夜勤明けにTVで小説大賞の応募があり思い切って応募<br>
+                なにも考えず原稿用紙300枚書くも雑すぎて落選。<br>
+                本気で目指そうと貯金を吐き出し専門学校に入学。<br>
+                卒業時、講師から落語家にならないか誘われるも<br>
+                興味が湧かず就職。整骨院で働き出す</p>
+                <img src="img/bungou.jpg" alt="小説家を目指して">
+            </div>
+            <div>
+                <img src="img/seikotuin.jpg" alt="整骨院">
+                <p>20代の青春、接骨院での日々<br><br>
+                まさかの才能に開花し魔術師扱いされ天狗になる<br>
+                調子に乗って酒、タバコ、競馬にハマり、<br>
+                ヘッドハンティングに乗るが失敗<br>
+                柔道整復師の資格も取るが、時間の長さに疲れ<br>
+                技術を活かしてマッサージ屋に転職！</p>
+            </div>
+            <div class="reverse">
+                <p>32歳にして人生を考える<br><br>
+                マッサージ屋での日々に充実感を覚える<br>
+                ある日、You Tubeで老後を意識してしまい<br>
+                このままではいけないと一念発起して<br>
+                プログラマーを志す</p>
+                <img src="img/programmer.jpg" alt="プログラマーに俺はなる">
+            </div>
+            <div>
+                <img src="img/kaigo.jpg" alt="機能訓練指導員">
+                <p>3ヶ月で挫折、そして副業へ<br><br>
+                なんとか就職するも3ヶ月でクビになる<br>
+                柔道整復師の資格を活かし介護のリハビリを仕事にする<br>
+                介護の合間を縫って勉強を行い、<br>
+                副業としてITエンジニアになる</p>
+            </div>
+        </section>
+        <!--<section id="contact">
+            <form>
+                <h2>お問い合わせ内容</h2>
+                <div class="main-text">
+                    <label>氏名を入力してください</label>
+                    <br>
+                    <input type="text" placeholder="ニックネームでもOKです">
+                </div>
+                <div class="main-text">
+                    <label>連絡方法を入力してください</label>
+                    <br>
+                    <input type="text" placeholder="メールアドレスでお願いします">
+                </div>
+                <div class="main-text">
+                    <label>必要項目があればチェックしてください</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"><label>連絡手段の希望がある(zoom,チャットワークなど)</label><br>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"><label>見積もり金額がわからない</label><br>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"><label>とりあえず相談だけしてみたい</label><br>
+                </div>
+                <div class="main-text">
+                    <label>相談内容</label>
+                    <br>
+                    <textarea id="message"></textarea>
+                </div>
+                <div id="submit">
+                    <input type="submit" value="送信する">
+                </div>
+            </form>
+            <p>お仕事の依頼はもちろん、ご見積もり、相談など気になる方はご連絡ください。<br>
+            翌日返事をしますが、多忙の際など少し時間をいただく場合があります<br>
+            （連絡が遅れる場合も一言連絡をいれさせていただきますので、<br>
+            ３日以上返事がない場合は申し訳ありませんがもう一度再送をお願い致します）</p>
+        </section>-->
+        <div id="page_top"><a href="#">TOP</a></div>
+<?php echo do_shortcode( '[contact-form-7 id="658fd8d" title="コンタクトフォーム 1"]' ); ?>
+    </main>
+    <footer>
+        &copy;2023 ∀myPortfolio jin nagasaki
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
